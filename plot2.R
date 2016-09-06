@@ -8,3 +8,7 @@ png(file="plot2.png", width = 480, height = 480)
 plot(data1$time, data1$Global_active_power, type = "n", xlab = "", ylab="Global Active Power(kilowatts)")
 lines(data1$time, data1$Global_active_power)
 dev.off()
+
+
+
+
